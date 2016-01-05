@@ -10,6 +10,10 @@
 
 2) Добавить и настроить [Incoming WebHook](https://strsqr.slack.com/apps/new/A0F7XDUAZ-incoming-webhooks) интеграцию для канала (любой, хоть general :)).
 
+Устанавливаем golang и обязательно выполняем команду:
+
+`go get github.com/PuerkitoBio/goquery`
+
 Далее запускаем скрипт с двумя обязательными параметрами:
 - `-s`: URL с результатами поиска недвижимости;
 - `-w`: WebHook URL, который сгенерирует Slack для "пушей" сообщений.
